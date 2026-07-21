@@ -398,7 +398,7 @@ header {
   box-shadow: var(--shadow-lg);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  overflow: hidden;
+  overflow: visible;
   padding: 1.5rem 0;
 }
 
