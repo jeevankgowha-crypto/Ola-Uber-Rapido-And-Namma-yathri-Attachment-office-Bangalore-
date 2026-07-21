@@ -416,18 +416,17 @@ header {
 }
 
 .platform-logo-new {
-  height: auto;
-  max-height: 72px;
+  height: 80px;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
 }
 
 .platform-logo-new svg {
-  height: auto;
-  max-height: 72px;
+  height: 80px;
   width: auto;
-  max-width: 190px;
+  max-width: 200px;
+  display: block;
 }
 
 .platform-col h3 {
