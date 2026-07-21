@@ -416,26 +416,18 @@ header {
 }
 
 .platform-logo-new {
-  height: 56px;
+  height: auto;
+  max-height: 72px;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
 }
 
 .platform-logo-new svg {
-  height: 100%;
+  height: auto;
+  max-height: 72px;
   width: auto;
-  max-width: 160px;
-}
-
-/* Actual brand logo images */
-.brand-logo-img {
-  height: 100%;
-  width: auto;
-  max-width: 160px;
-  max-height: 38px;
-  object-fit: contain;
-  display: block;
+  max-width: 190px;
 }
 
 .platform-col h3 {
