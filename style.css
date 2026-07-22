@@ -416,7 +416,7 @@ header {
 }
 
 .platform-logo-new {
-  height: 68px;
+  height: 100px;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
@@ -425,17 +425,27 @@ header {
 .platform-logo-new svg {
   height: 100%;
   width: auto;
-  max-width: 200px;
+  max-width: 240px;
 }
 
 /* Actual brand logo images */
 .brand-logo-img {
   height: 100%;
   width: auto;
-  max-width: 160px;
-  max-height: 38px;
+  max-width: 240px;
+  max-height: 100px;
   object-fit: contain;
   display: block;
+}
+
+/* Instagram pink hover */
+#instagram-link:hover {
+  color: #e1306c;
+}
+
+/* Mail blue hover */
+#mail-link:hover {
+  color: #4a90e2;
 }
 
 .platform-col h3 {
