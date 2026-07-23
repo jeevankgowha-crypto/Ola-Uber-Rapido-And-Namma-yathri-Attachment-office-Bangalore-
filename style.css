@@ -252,6 +252,22 @@ header {
   font-weight: 500;
 }
 
+.logo-line-phones {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--whatsapp-hover);
+  margin-top: 0.15rem;
+}
+
+.logo-line-phones a {
+  color: var(--whatsapp-hover);
+  text-decoration: underline;
+}
+
+.logo-line-phones a:hover {
+  color: var(--accent);
+}
+
 /* Navigation Links */
 .nav-menu {
   display: flex;
